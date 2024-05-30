@@ -30,7 +30,7 @@ const variant = {
 const Menu = () => {
   const [isActive, setIsActive] = useState(false);
   return (
-    <div className="fixed top-5 right-20">
+    <div className="absolute top-4 lg:top-7 right-0">
       <motion.div
         variants={variant}
         initial="close"

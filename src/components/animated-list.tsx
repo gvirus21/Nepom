@@ -67,10 +67,10 @@ const ResortList = () => {
   return (
     <div className="mt-16 mb-20 divide-y-2 divide-black">
         {resortList.map(({ id, title, location, rating }) => (
-          <div key={id}  className="flex justify-between w-full text-2xl py-6 text-left">
-            <span className="w-[20rem]">{title}</span>
-            <span className="w-[20rem] text-xl"> {location}</span>
-            <span className="mr-10 text-lg">{rating} ⭐</span>
+          <div key={id}  className="flex justify-between w-full py-6 text-left">
+            <span className="w-[10rem] sm:w-[20rem] md:text-xl lg:text-2xl">{title}</span>
+            <span className="w-[8rem] sm:w-[20rem] md:text-lg lg:text-xl text-right md:text-left"> {location}</span>
+            <span className="hidden md:block mr-10 md:text-base lg:text-lg">{rating} ⭐</span>
           </div>
         ))}
     </div>
