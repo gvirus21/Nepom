@@ -1,5 +1,3 @@
-/* .button-hover-effect {} */
-
 .button-hover-effect::after {
     content: "";
     position: absolute;
