@@ -1,3 +1,12 @@
+# Nepom - Tour Agency Website Landing Page
+
+![20240626_165939_223](https://github.com/gvirus21/Nepom/assets/69251030/9b601945-f803-48a5-a9b5-fd1b75b7904f)
+
+- Nepom is a captivating tour agency website landing page designed to attract and engage visitors. The site stands out with its cool animations, creating an immersive browsing experience, while maintaining a simple and intuitive layout. Nepom combines visual appeal with ease of use, making it the perfect gateway for potential travelers to explore and book their next adventure.
+
+- Key Tech stack used: Next Js, GSAP.
+- Hosted link: https://nepom-agency.vercel.app/
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
